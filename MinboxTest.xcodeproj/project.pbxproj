@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E90A24052B7FB5C00080FE34 /* CircleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90A24042B7FB5C00080FE34 /* CircleTests.swift */; };
 		E9572ECB2B7D4E07004784ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9572ECA2B7D4E07004784ED /* AppDelegate.swift */; };
 		E9572ECF2B7D4E07004784ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9572ECE2B7D4E07004784ED /* ViewController.swift */; };
 		E9572ED42B7D4E09004784ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9572ED32B7D4E09004784ED /* Assets.xcassets */; };
 		E9572ED72B7D4E09004784ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9572ED52B7D4E09004784ED /* LaunchScreen.storyboard */; };
-		E9572EE22B7D4E0A004784ED /* MinboxTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9572EE12B7D4E0A004784ED /* MinboxTestTests.swift */; };
+		E9572EE22B7D4E0A004784ED /* TriangleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9572EE12B7D4E0A004784ED /* TriangleTests.swift */; };
 		E9572EFE2B7D4FD1004784ED /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9572EFD2B7D4FD1004784ED /* Shape.swift */; };
 		E9572F002B7D4FDC004784ED /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9572EFF2B7D4FDC004784ED /* Triangle.swift */; };
 		E9572F022B7D4FE5004784ED /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9572F012B7D4FE5004784ED /* Circle.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E90A24042B7FB5C00080FE34 /* CircleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleTests.swift; sourceTree = "<group>"; };
 		E9572EC72B7D4E07004784ED /* MinboxTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinboxTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9572ECA2B7D4E07004784ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9572ECE2B7D4E07004784ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,7 +37,7 @@
 		E9572ED62B7D4E09004784ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9572ED82B7D4E09004784ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9572EDD2B7D4E09004784ED /* MinboxTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinboxTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9572EE12B7D4E0A004784ED /* MinboxTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinboxTestTests.swift; sourceTree = "<group>"; };
+		E9572EE12B7D4E0A004784ED /* TriangleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleTests.swift; sourceTree = "<group>"; };
 		E9572EFD2B7D4FD1004784ED /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 		E9572EFF2B7D4FDC004784ED /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
 		E9572F012B7D4FE5004784ED /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
@@ -89,7 +91,8 @@
 		E9572EE02B7D4E0A004784ED /* MinboxTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				E9572EE12B7D4E0A004784ED /* MinboxTestTests.swift */,
+				E9572EE12B7D4E0A004784ED /* TriangleTests.swift */,
+				E90A24042B7FB5C00080FE34 /* CircleTests.swift */,
 			);
 			path = MinboxTestTests;
 			sourceTree = "<group>";
@@ -236,7 +239,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9572EE22B7D4E0A004784ED /* MinboxTestTests.swift in Sources */,
+				E9572EE22B7D4E0A004784ED /* TriangleTests.swift in Sources */,
+				E90A24052B7FB5C00080FE34 /* CircleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,9 +458,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pavelspitsin.MinboxTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MinboxTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MinboxTest";
 			};
 			name = Debug;
@@ -474,9 +481,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pavelspitsin.MinboxTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MinboxTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MinboxTest";
 			};
 			name = Release;
